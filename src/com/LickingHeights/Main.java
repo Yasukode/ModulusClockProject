@@ -12,15 +12,13 @@ public class Main {
         Scanner userInput = new Scanner(System.in);
     System.out.println("What is the hour?");
 
-    int hour = userInput.nextInt();
+    int hours = userInput.nextInt();
 
     System.out.println("What are the minutes?");
 
     int minutes = userInput.nextInt();
-
-
-
-
+     hours = minutes>60 ? ++hours: hours;
+    
 
     }
 
