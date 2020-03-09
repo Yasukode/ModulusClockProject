@@ -19,8 +19,9 @@ public class Main {
     int minutes = userInput.nextInt();
      hours = minutes>60 ? ++hours: hours;
      hours = hours>12 ? hours-12: hours;
-     
 
+     System.out.println(minutes%60);
+        
     }
 
 
