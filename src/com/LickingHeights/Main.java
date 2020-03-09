@@ -21,7 +21,7 @@ public class Main {
      hours = hours>12 ? hours-12: hours;
 
      System.out.println(minutes%60);
-        
+        System.out.printf("The time is: %d:%02d",hours,(minutes%60));
     }
 
 
